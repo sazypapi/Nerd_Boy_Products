@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerd Boy Products</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="/mediaquery.css">
+</head>
+
+<body>
+
+    <!-- Header Section-----------------------------------
+     -->
+    <!-- <section class="header">
+
+        <div class="logo">
+            <h1>Nerd</h1>
+        </div>
+        <div class="navs">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">Dolor</a></li>
+                <li><a href="#">Amert</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <label>
+                <img src="images/magnifying-glass.png" alt="">
+            </label>
+            <input type="text" placeholder="Search">
+            <hr>
+        </div>
+        <div class="login-btn">
+            <button>Sign Up</button>
+        </div>
+        <div class="profile hidden">
+            <img class="home-profile" src="images/boy.png" alt="Profile Picture">
+            <div class="profile-details">
+                <p id="user-name">Drealm lex</p>
+                <p class="gmail" >drealmlex@gmail.com</p>
+            </div>
+            <span>
+                <img src="images/cartBropng" alt="">
+            </span>
+            <i class="hidden">50</i>
+        </div>
+
+    </section>
+
+
+         <!-- Working with modal--------------------------------------
+         -->
+    <!-- <div class="login-modal">
+            <h1>Create An Account</h1>
+            <p>Hey, Enter your details to sign up <br>
+            with Nerd
+            </p>
+
+            <div class="input-details">
+                <div class="div-boy">
+                <input type="text" placeholder="First name" id="firstname">
+                <input type="text" placeholder="Last name" id="lastname">
+                <br>
+                <label id="wrong-username" class="hidden">Only Characters Allowed and cannot be longer than 16 Characters each</label> 
+                </div>
+                <div class="div-boy">
+                <input type="email" placeholder="Email address" id="email">
+                <br>
+                <label id="wrong-email" class="hidden">We coudn't find the specified email address</label>
+                </div>
+                <div class="div-boy">
+                <input type="password" placeholder="Password" id="password">
+                <input type="password" placeholder="Confirm Password" id="confirmpassword">
+                <br>
+                <label id="mismatch-password" class="hidden">Incorrent password</label>
+                </div>
+            </div>
+
+            <h6>Having trouble creating account?</h6>
+            <button>Sign up</button>
+            <h4>- Or Sign up with -</h4>
+
+            <div class="social-links">
+                <div class="google h">
+                    <img src="images/google_logo.png" alt="">
+                    <p id="gg">Google</p>
+                </div>
+                <div class="apple h">
+                    <img src="images/apple_logo.png" alt="">
+                    <p>Apple ID</p>
+                </div>
+                <div class="facebook h">
+                    <img src="images/facebook_logo.png" alt="">
+                    <p>Facebook</p>
+                </div>
+            </div>
+
+            <h5>Already have an account? <span>Sign in</span></h5>
+
+         </div>
+
+         <!-- layer-blur--------------------------------- -->
+    <div class="layer-modal hidden"></div>
+
+    <!-- Store links body-------------------------------------
+         -->
+
+    <!-- <section class="store-links">
+            <div class="store">
+                <p>Nike</p>
+                <img src="images/nike.png" alt="">
+            </div>
+            <div class="store">
+                <p>Jordan</p>
+                <img src="images/icons8-air-jordan-50.png" alt="">
+            </div>
+            <div class="store">
+                <p>Adidas</p>
+                <img src="images/adidas.png" alt="">
+            </div>
+            <div class="store">
+                <p>Puma</p>
+                <img src="images/puma.png" alt="">
+            </div>
+            <div class="store" id="nb">
+                <p>New Balance</p>
+                <img src="images/nb.png" alt="">
+            </div>
+            <div class="store" id="reebook">
+                <p>Reebok</p>
+                <img src="images/reebok.png" alt="">
+            </div>
+            <div class="store">
+                <p>Puma</p>
+                <img src="images/puma.png" alt="">
+            </div>
+         </section>  -->
+
+    <!-- Adding list of Items?----------------------------- -->
+
+
+
+    <div class="simple-layout">
+        <label>Top Selling Items</label>
+        <select name="" id="">
+            <option value="">Sort by</option>
+            <option value="">New Arrivals</option>
+            <option value="">Top Deals</option>
+            <option value="">Weekend Specials</option>
+        </select>
+    </div>
+
+
+    <!-- Item Details------------------------------------------- -->
+    <div class="random-items-holder">
+
+        <div class="random-items">
+
+            <div class="single-item">
+                <div class="item-box">
+                    <img src="images/adidas shoe.png" alt="">
+                    <div class="easy-navs">
+                        <div class="same-prob">
+                            <h3>Adidas Shoe</h3>
+                            <h6>500 $</h6>
+                        </div>
+                        <p>Premium hot selection for men 2022</p>
+                        <div class="holy">
+                            <button id="buy-now">Buy now</button>
+                            <button id="add-to-cart">Add to chart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-item">
+                <div class="item-box">
+                    <img src="images/adidas shoe.png" alt="">
+                    <div class="easy-navs">
+                        <div class="same-prob">
+                            <h3>Adidas Shoe</h3>
+                            <h6>500 $</h6>
+                        </div>
+                        <p>Premium hot selection for men 2022</p>
+                        <div class="holy">
+                            <button id="buy-now">Buy now</button>
+                            <button id="add-to-cart">Add to chart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-item">
+                <div class="item-box" id="puma-box">
+                    <img src="images/pumashoe.png" alt="">
+                    <div class="easy-navs">
+                        <div class="same-prob">
+                            <h3>Adidas Shoe</h3>
+                            <h6>500 $</h6>
+                        </div>
+                        <p>Premium hot selection for men 2022</p>
+                        <div class="holy">
+                            <button id="buy-now">Buy now</button>
+                            <button id="add-to-cart">Add to chart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-item">
+                <div class="item-box" id="air-jordan">
+                    <img src="images/air jordan shoe.png" alt="">
+                    <div class="easy-navs">
+                        <div class="same-prob">
+                            <h3>Adidas Shoe</h3>
+                            <h6>500 $</h6>
+                        </div>
+                        <p>Premium hot selection for men 2022</p>
+                        <div class="holy">
+                            <button id="buy-now">Buy now</button>
+                            <button id="add-to-cart">Add to chart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-item" id="mqshow">
+                <div class="item-box">
+                    <img src="images/adidas shoe.png" alt="">
+                    <div class="easy-navs">
+                        <div class="same-prob">
+                            <h3>Adidas Shoe</h3>
+                            <h6>500 $</h6>
+                        </div>
+                        <p>Premium hot selection for men 2022</p>
+                        <div class="holy">
+                            <button id="buy-now">Buy now</button>
+                            <button id="add-to-cart">Add to chart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-item" id="mqshow">
+                <div class="item-box" id="puma-box">
+                    <img src="images/pumashoe.png" alt="">
+                    <div class="easy-navs">
+                        <div class="same-prob">
+                            <h3>Adidas Shoe</h3>
+                            <h6>500 $</h6>
+                        </div>
+                        <p>Premium hot selection for men 2022</p>
+                        <div class="holy">
+                            <button id="buy-now">Buy now</button>
+                            <button id="add-to-cart">Add to chart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--Weekend Speacial-------------------------------------->
+    <div class="weekend-special">
+        <div class="weekend-special-text">
+            <h1>We've got what you are looking for <br> <span> Explore our weekend specials</span></h1>
+            <button>Weekend Specials</button>
+        </div>
+        <div class="weekend-special-img">
+            <img src="images/dybala.png" alt="">
+        </div>
+    </div>
+
+    <!--Weekend special label---------------------------------->
+    <div class="wkend-label-text">
+        <label>Super Christmas Deals </label>
+    </div>
+    <div class="regular-item-container-holder">
+
+        <div class="regular-item-container">
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/007.png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Lakers Vest </h3>
+                        <h6>500 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper" id="mqshow">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (4).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>2300 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+            <div class="regular-item-wrapper" id="mqshow">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (2).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>1200 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (1).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>600 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (2).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>1200 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (4).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>2300 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (5).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>600 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (6).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>700 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (7).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>500 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (8).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>800 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (9).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>3100 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (10).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>900 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (11).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>560 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (12).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>17 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (13).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>50 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (14).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>510 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (15).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>1000 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+            <div class="regular-item-wrapper">
+                <div class="regular-item-box">
+                    <img src="images/image-removebg-preview (5).png" alt="">
+                </div>
+                <div class="regular-item-details">
+                    <div class="flexible-details">
+                        <h3>Adidas Shoe</h3>
+                        <h6>500 $</h6>
+                    </div>
+                    <!-- <p>Premium Shit bro</p> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- pagination ------------------------------------------ -->
+    <div class="pagination-container">
+        <div class="pagination">
+            <button class="btn1">prev</button>
+            <ul>
+                <li class="link active l1" value="1">1</li>
+                <li class="link l2" value="2">2</li>
+                <li class="link l3" value="3">3</li>
+                <li class="link l4" value="4">4</li>
+                <li class="link l5" value="5">5</li>
+                <li class="link l6" value="6">6</li>
+            </ul>
+            <button class="btn2">next</button>
+        </div>
+    </div>
+
+    <!--Fooooooooooooooooooooooooterrrrrrrrrrrrrrrrrr-->
+
+    <div class="footer">
+
+        <div class="no-head-dude">
+            <div class="footer-wrap">
+                <div class="first-part-footer">
+                    <div class="first-element">
+
+                        <a href="#" id="main">QUICK LINKS</a>
+                        <a href="#">FIND A STORE</a>
+                        <a href="#">BECOME A MEMBER</a>
+                        <a href="#">SIGN UP FOR EMAIL</a>
+                        <a href="#">STUDENT DISCOUNT</a>
+                        <a href="#">SEND US FEDDBACK</a>
+
+                    </div>
+
+                    <div class="second-element">
+
+                        <a href="#" id="main">GET HELP</a>
+                        <a href="#">Order</a>
+                        <a href="#">Delivery</a>
+                        <a href="#">Returns</a>
+                        <a href="#">Payment Options</a>
+                        <a href="#">Contact Us</a>
+
+                    </div>
+
+                    <div class="third-element">
+
+                        <a href="#" id="main">ABOUT NERD</a>
+                        <a href="#">News</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Investors</a>
+                        <a href="#">Sustainability</a>
+
+                    </div>
+                </div>
+
+                <div class="fourth-element">
+                    <img src="/images/icons8-instagram-50.png" alt="instagram">
+                    <img src="/images/icons8-twitter-50.png" alt="twitter">
+                    <img src="/images/icons8-youtube-50.png " alt="youtube">
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="copy-right">
+            <div class="terms">
+
+                <a href="#">Guide</a>
+                <a href="#">Terms Of Sale</a>
+                <a href="#">Terms Of Use</a>
+                <a href="#">Nerd Privacy Policy</a>
+
+            </div>
+            <div class="right-reserved">
+                <p>&#169; 2022 Nerd, Inc. All Rights Reserved</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
